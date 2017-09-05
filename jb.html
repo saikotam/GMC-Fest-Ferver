@@ -1,0 +1,229 @@
+<!--todo: Navigationbar attached to top/bottom-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="manifest" href="manifest.json" />
+  <title>GMC FEST FERVER</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+    <!--PWA-->
+    
+ 
+  
+ 
+</head>
+<body style="background-color: gold">
+     <link rel="stylesheet" href="basic.css">
+    <script src="basic.js"></script>
+    <script src="custom1.js"></script>
+    <link rel="stylesheet" href="custom1.css">
+    <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <!-- Material Design fonts -->
+    <!-- Bootstrap Material Design -->
+    <link rel="stylesheet" href="https://cdn.rawgit.com/FezVrasta/bootstrap-material-design/dist/dist/bootstrap-material-design.min.css">
+ <!--Sidebar--> 
+<div class="header" id="home" style="background-color: gold">
+		
+		<div class="container" style="background-color: gold">
+			<div class="header-bottom">
+				
+				<nav id="navigation" class="navigation navigation-landscape" style="background-color: gold" >
+					<div class="nav-toggle"></div>
+                    <div class="nav-header">
+						<a class="nav-brand" href="index.html">
+							<img src="Udbhav_text.png" alt="Udbhav" height="40" width="100">
+						</a>
+						
+					</div>
+					<div class="nav-menus-wrapper" style="transition-property: none;">
+						<ul class="nav-menu">
+							<li class=""><a href="2.html">About FEST</a></li>
+							<li><a href="#">Audi Events</a></li>
+							<li class=""><a href="#">Services<span class="submenu-indicator"></span></a>
+								<ul class="nav-dropdown nav-submenu" style="right: auto; display: none;">
+									<li><a href="#">Services 1</a></li>
+									<li><a href="#">Services 2</a></li>
+									<li><a href="#">Services 3</a></li>
+									<li class=""><a href="#">Sub Services<span class="submenu-indicator"></span></a>
+										<ul class="nav-dropdown nav-submenu" style="display: none;">
+											<li><a href="#">Sub Services 1</a></li>
+											<li><a href="#">Sub Services 2</a></li>
+											<li><a href="#">Sub Services 3</a></li>
+											<li><a href="#">Sub Services 4</a></li>
+										</ul>
+									</li>
+									<li><a href="#">Services 4</a></li>
+								</ul>
+							</li>
+							<li><a href="#">Cellar events</a></li>
+                            <li><a href="#">Sports</a></li>
+                            <li><a href="#">Competitions</a></li>
+                            <li><a href="#">Fest Night</a></li>
+                        </ul>
+						<ul class="nav-menu nav-menu-social align-to-right">
+						<li>
+							<a href="#">
+								 <i class="icon ion-social-facebook" aria-hidden="true"></i>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								 <i class="icon ion-social-twitter" aria-hidden="true"></i>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								 <i class="icon ion-social-googleplus" aria-hidden="true"></i>
+							</a>
+						</li>
+					</ul>
+					</div>
+				</nav>
+
+			</div>	
+		</div>
+	</div>
+        <!-- End of sidebar-wrapper -->
+        <!-- Page Content -->
+<div id="page-content-wrapper">
+    <div class="container-fluid">
+        <div class="row">
+        <div class="col-lg-12">
+        <!-- /#page-content-wrapper -->
+        <!-- /#wrapper -->
+
+    
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>
+
+
+    
+	</div>
+</div>
+</div>
+    </div>
+ <!--end of sidebar-->
+<!--.........................................................................................................................................................................................................................................................Content of the page is below.......................................................................................................................................................................................................................................................................................................-->    
+    
+    
+    
+    
+    
+    
+<!--This Page's Content-->
+<div class="container" id="main_content" style="margin: : 10px" > 
+ <!--JUKEBOX FORM begins here--> 
+
+<div class="container-fluid" id="formdiv"style="background-color: white; border-radius: 5%; padding: 5px"> 
+ 
+ <form class="container" id="needs-validation" novalidate>
+  <div class="row">
+    <div class="col-md-6 mb-3">
+      <label for="validationCustom01">First name</label>
+      <input type="text" class="form-control" id="validationCustom01" placeholder="First name" value="Mark" required>
+    </div>
+    <div class="col-md-6 mb-3">
+      <label for="validationCustom02">Last name</label>
+      <input type="text" class="form-control" id="validationCustom02" placeholder="Last name" value="Otto" required>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-6 mb-3">
+      <label for="validationCustom03">City</label>
+      <input type="text" class="form-control" id="validationCustom03" placeholder="City" required>
+      <div class="invalid-feedback">
+        Please provide a valid city.
+      </div>
+    </div>
+    <div class="col-md-3 mb-3">
+      <label for="validationCustom04">State</label>
+      <input type="text" class="form-control" id="validationCustom04" placeholder="State" required>
+      <div class="invalid-feedback">
+        Please provide a valid state.
+      </div>
+    </div>
+    <div class="col-md-3 mb-3">
+      <label for="validationCustom05">Zip</label>
+      <input type="text" class="form-control" id="validationCustom05" placeholder="Zip" required>
+      <div class="invalid-feedback">
+        Please provide a valid zip.
+      </div>
+    </div>
+  </div>
+  <button type="button" class="btn" style="background-color: crimson">SUBMIT</button>
+</form>
+
+<script>
+// Example starter JavaScript for disabling form submissions if there are invalid fields
+(function() {
+  "use strict";
+  window.addEventListener("load", function() {
+    var form = document.getElementById("needs-validation");
+    form.addEventListener("submit", function(event) {
+      if (form.checkValidity() == false) {
+        event.preventDefault();
+        event.stopPropagation();
+      }
+      form.classList.add("was-validated");
+    }, false);
+  }, false);
+}());
+</script>
+</div>
+
+<!--JUKEBOX FORM ends here--> 
+
+</div>
+<!--End of this page's Content-->
+    
+    
+    
+
+<!--...........................................................................................................................................................................................................................................................Content of the page is above.....................................................................................................................................................................................................................................................................................................-->
+    
+    
+    
+    
+    
+    
+    
+    
+<!--Button for Modal-->
+<a style="position:fixed;bottom:1px;right:5px;margin:0;padding:0px 0px; margin: 0px 5px 5px 0px;" href="#" class="btn btn-xs btn-success" data-toggle="modal" 
+   data-target="#basicModal" id="floater" ><img src="Bell-icon.png" alt="Guess" height="42" width="42" ></a>
+
+
+<!-- Modal (The Star) -->
+     <div class="modal fade" id="basicModal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+            <div class="modal-header" >
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">X</button>
+            <!--<h1 class="modal-title" id="myModalLabel"></h1>-->
+            </div>
+            <div class="modal-body">
+                <div class="list-group">
+                <a href="#" class="list-group-item">First item</a>
+                <a href="#" class="list-group-item">Second item</a>
+                <a href="#" class="list-group-item">Third item</a>
+            </div>
+            
+            </div>
+            <div class="modal-footer"><a href="#">S&S</a></div>
+    </div>
+         </div>
+</div>
+</body>
+</html>
+    
