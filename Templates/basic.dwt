@@ -11,7 +11,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+  <link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   
@@ -66,10 +66,10 @@
 									<li><a href="#">Services 4</a></li>
 								</ul>
 							</li>
-							<li><a href="#">Cellar events</a></li>
+							<li><a href="4.html">Cellar events</a></li>
                             <li><a href="#">Sports</a></li>
                             <li><a href="#">Competitions</a></li>
-                            <li><a href="#">Fest Night</a></li>
+                            <li><a href="5.html">Fest Night</a></li>
                         </ul>
 						<ul class="nav-menu nav-menu-social align-to-right">
 						<li>
