@@ -1,3 +1,18 @@
+/*Service Worker Update Notice*/
+#update-notice {
+     display: block;
+     padding: 1rem;
+     background-color: #C9E1BF;
+     opacity: 1.0;
+     transition: opacity 200ms cubic-bezier(0.4, 0, 1, 1);
+   }
+#update-notice[hidden] {
+     opacity: 0.0;
+   }
+
+
+
+
 /* CSS Hide Scroll bar*/
 
 html {
